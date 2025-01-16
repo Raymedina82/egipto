@@ -3,13 +3,12 @@ body{
 
 }
 
-.TRESCULTURAS{
-    color: white;
-
+.titulo {
+    
     z-index: 0;
 }
 .titulo{
-    
+    color: azure;
     text-align: center;
     background-image: url(assets/img/pizarron.jpg);
     height: 100px;
@@ -17,6 +16,7 @@ body{
 
 .EGIPTO {
     background-image: url("assets/img/egipto.jpg");
+    background-color: black;
 }
 
 .Etimología-y-toponimia {

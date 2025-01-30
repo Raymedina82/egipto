@@ -9,6 +9,8 @@ body{
 }
 .titulo{
     color: azure;
+    font-size: 50px;
+    font-style: italic;
     text-align: center;
     background-image: url(assets/img/pizarron.jpg);
     height: 100px;
@@ -19,7 +21,33 @@ body{
     background-color: black;
 }
 
-.Etimología-y-toponimia {
+.EGIPTO h2{
+    font-size: 50px;
+    text-align: center;
+} 
+
+.EGIPTO p{
+    font-style: unset;
+    font-size: 20px;
+    color: indigo;
+}
+
+
+.Etimología-y-toponimia{
 
     background-image: url(assets/img/egipto2.jpg);
+    font-size: 50px;
+    font-style: inherit;
+}
+
+.Etimología-y-toponimia h3{
+   font-family: fantasy;
+   text-align: center;
+   color: aliceblue;
+}
+.Etimología-y-toponimia p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(22, 28, 48);
+
 }

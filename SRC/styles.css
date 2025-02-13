@@ -7,20 +7,23 @@ body{
     
     z-index: 0;
 }
+
+
 .titulo{
+    font-weight: bold;
+    font-size: 5em;
+    font-family: fantasy;
     color: azure;
-    font-size: 50px;
-    font-style: italic;
     text-align: center;
     align-content: center;
     background-image: url(assets/img/pizarron.jpg);
     height: 200px;
-    margin: 5cm;
+    margin: .2em;
     margin-block-start: 1em;
     border-radius: 3em;
     border-color: aqua;
-    border-style: solid;
-    border-width: .5em;
+    border-style: dotted;
+    border-width: .2em;
     
 
 }
@@ -39,8 +42,35 @@ body{
 .EGIPTO p{
     font-style: unset;
     font-size: 20px;
-    color: indigo;
+    color: azure;
 }
+
+.civilizacion {
+
+    color: red;
+    font-size: 2em;
+}
+.tierras {
+
+    color: blue;
+    text-decoration: underline;
+}
+
+.rio{
+    color: green;
+    text-decoration: underline overline;
+}
+
+.cultural{
+
+    color: blueviolet;
+}
+
+.EGIPTO a:link{
+   color: green;
+}
+
+
 
 
 .Etimología-y-toponimia{

@@ -17,13 +17,13 @@ body{
     text-align: center;
     align-content: center;
     background-image: url(assets/img/pizarron.jpg);
-    height: 200px;
-    margin: .2em;
-    margin-block-start: 1em;
-    border-radius: 3em;
+    height: 100px;
+    margin: .1em;
+    margin-block-start: .05em;
+    border-radius: 1em;
     border-color: aqua;
     border-style: dotted;
-    border-width: .2em;
+    border-width: .1em;
     
 
 }
@@ -32,6 +32,7 @@ body{
 .EGIPTO {
     background-image: url("assets/img/egipto.jpg");
     background-color: black;
+    margin: .02em;
 }
 
 .EGIPTO h2{
@@ -66,13 +67,24 @@ body{
     color: blueviolet;
 }
 
-.EGIPTO a:link{
-   color: green;
+.EGIPTO button {
+
+    background-color: blue;
+    font-style: italic;
+    font-size: 1em;
 }
+.EGIPTO a:link{
 
+    color: red;
+}
+.EGIPTO a:visited{
 
-
-
+    color: gray;
+}
+.EGIPTO a:hover{
+    color: yellow;
+}
+   
 .Etimología-y-toponimia{
 
     background-image: url(assets/img/egipto2.jpg);

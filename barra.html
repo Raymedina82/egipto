@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>barra</title>
+    <style>
+        .barracontenido {
+
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .barracontenido a {
+
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        {/*estilo*/}
+        @media (max-width:768px) {
+            .barracontenido{
+                flex-direction: column;
+                align-items: center;
+        }
+        .barracontenido a {
+            margin: 5px 0;
+        }
+    }
+    </style>
+
+    <nav class="barracontenido">
+        <a href="#">INICIO</a>
+        <a href="#">ACERCA</a>
+        <a href="#">CONTENIDO</a>
+        <a href="#">SERVICIO</a>
+
+    </nav>
+</head>
+<body>
+    
+</body>
+</html>

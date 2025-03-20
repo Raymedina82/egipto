@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .contenido {
+            max-width: 600px;
+        }
+        @media (max-width:767px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1><img src="SRC/imagenes proyectos/images.png" alt="imagen"></h1>
+            <nav>
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">ACERCA</a></li>
+                    <li><a href="#">SERVICIOS</a></li>
+                    <li><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contenido">
+                <h2>TENIS NIKE</h2>
+                <p>Nike fue fundada el 25 de enero de 1964 como "Blue Ribbons Sports" por Phil Knight y Bill Bowerman. La compañía cambió su nombre a Nike, Inc. el 30 de mayo de 1971.</p>
+            </section>
+            <section class="imagenes">
+                <img src="SRC/imagenes proyectos/tenis1.jpg">
+                <img src="SRC/imagenes proyectos/tenis2.webp">
+            </section>
+
+    </div>
+
+    
+</body>
+</html>

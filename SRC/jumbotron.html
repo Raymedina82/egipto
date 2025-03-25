@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jumbotron</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial,sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        nav ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li{
+            margin: 0;
+        }
+
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .jumbotron {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .texto {
+            flex-basis: 600px;
+            padding: 20px;
+        }
+        .imagen {
+            flex-basis: 500px;
+        }
+
+        .jumbotron h2 {
+            font-size: 36px;
+        }
+
+        .jumbotron p {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .jumbotron .btn {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .jumbotron img{
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <HEAder>
+        <h1>NIKE</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio">INICIO </a></li>
+                <li><a href="hombre">HOMBRE </a></li>
+                <li><a href="mujer">MUJER </a></li>
+                <li><a href="rebajas">REBAJAS </a></li>
+            </ul>
+        </nav>
+    </HEAder>
+
+    <main>
+        <section class="jumbotron">
+            <div class="texto">
+                <h2>Nike Dunk Low REtro Premium</h2>
+                <p>Los Nike Air Jordan Retro son réplicas de modelos de zapatillas de años anteriores que se vuelven a lanzar debido a su alta demanda</p>
+            <a href="#" class="btn">Comprar</a>
+            </div>
+        <div class="imagen">
+            <img src="imagenes proyectos/tenis1.jpg" alt="Nike Dunk Low">
+        </div>
+        </section>
+        <section id="hombre" class="seccion"></section>
+        <section id="mujer" class="seccion"></section>
+    </main>
+
+</body>
+</html>

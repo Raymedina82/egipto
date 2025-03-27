@@ -1,0 +1,35 @@
+.ejemplo {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+}
+.ejemplo1 {
+    background-color: #007bbf;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.ejemplo1:hover{
+    background-color: #ff6347;
+}
+
+.ejemplo2 {
+    background-color: #28a745;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ejemplo2:hover{
+    transform: scale(1.2);
+}
+.ejemplo3 {
+    background-color: #dc3545;
+    transition:  opacity 0.3s ease-in-out;
+}
+.ejemplo3:hover {
+    opacity: 0.7;
+}

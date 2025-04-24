@@ -1,0 +1,1 @@
+document.writeln("!hola mundo! ESTE MENSAJE SE ESCRIBE EN LA PAGINA.");
